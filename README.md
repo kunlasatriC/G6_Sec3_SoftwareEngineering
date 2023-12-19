@@ -1,5 +1,6 @@
 # G6_Sec3_SoftwareEngineering
 1. นายรัฐภูมิ ธนาโชติอัครโภคิน 643021335-2 Section 3 RattaphoomT
+  ![รูปภาพของผู้เขียน](/media/Rattaphoom.jpg)
 1. นายชยพล ศรีสองเมือง 643021416-2 Section 3 chayaphon22271
  ![รูปภาพของผู้เขียน](/media/Chayaphon.jpg)
 1. นางสาวกุลสตรี ไชยหัด 643020594-3 Section 3 kunlasatriC
