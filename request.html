@@ -1,0 +1,56 @@
+<form action="/upload" method="post" enctype="multipart/form-data" class="container mt-4">
+<h2>Request processing list</h2>
+<table class="table table-bordered table-striped">
+<thead class="thead-dark">
+<tr>
+<th scope="col">#</th>
+<th scope="col">First name</th>
+<th scope="col">Last name</th>
+<th scope="col">ID</th>
+<th scope="col">Email</th>
+<th scope="col">Status</th>
+<th scope="col">Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">1</th>
+<td>Ratthaphoom</td>
+<td>Akarapokin</td>
+<td>6432251746-2</td>
+<td>bass@gmail.com</td>
+<td><select class="form-control" name="status1">
+<option value="completed">Completed</option>
+<option value="pending">Pending Document Verification</option>
+<option value="evaluation">Evaluation by Committee</option>
+</select></td>
+<td><button type="submit" class="btn btn-warning" name="approve1">Approve</button></td>
+</tr>
+<tr>
+<th scope="row">2</th>
+<td>Jacob</td>
+<td>Thornton</td>
+<td>6245551102-8</td>
+<td>bass@gmail.com</td>
+<td><select class="form-control" name="status2">
+<option value="completed">Completed</option>
+<option value="pending">Pending Document Verification</option>
+<option value="evaluation">Evaluation by Committee</option>
+</select></td>
+<td><button type="submit" class="btn btn-warning" name="approve2">Approve</button></td>
+</tr>
+<tr>
+<th scope="row">3</th>
+<td colspan="2">malinda</td>
+<td>6147892568-9</td>
+<td>bass@gmail.com</td>
+<td><select class="form-control" name="status3">
+<option value="completed">Completed</option>
+<option value="pending">Pending Document Verification</option>
+<option value="evaluation">Evaluation by Committee</option>
+</select></td>
+<td><button type="submit" class="btn btn-warning" name="approve3">Approve</button></td>
+</tr>
+</tbody>
+</table>
+<button type="submit" class="btn btn-info">Approve All</button></form>
