@@ -1,0 +1,18 @@
+1707904583523	geckodriver	INFO	Listening on 127.0.0.1:53458
+1707904586584	mozrunner::runner	INFO	Running command: "C:\\Users\\asus\\.cache\\selenium\\firefox\\win64\\122.0.1\\firefox.exe" "--marionette" "--remote-debugging ... 59" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofilelMjqpG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707904586865	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1707904586918	Marionette	INFO	Listening on port 53477
+WebDriver BiDi listening on ws://127.0.0.1:53459
+Read port: 53477
+1707904587068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53459/devtools/browser/a83866e0-7957-4088-ace6-2b0115231e9d
+1707904616953	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: moz-extension://b4d0c44d-14ba-4a8d-b546-6c66f27ade64/lib/shims.js, line 601: Script terminated by timeout at:
+unmarkShimsActive@moz-extension://b4d0c44d-14ba-4a8d-b546-6c66f27ade64/lib/shims.js:601:39
+
+1707905393304	Marionette	INFO	Stopped listening on port 53477
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: TimeoutError: Message handler threw uncatchable exception

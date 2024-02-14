@@ -1,0 +1,15 @@
+1707906679751	geckodriver	INFO	Listening on 127.0.0.1:55128
+1707906682793	mozrunner::runner	INFO	Running command: "C:\\Users\\asus\\.cache\\selenium\\firefox\\win64\\122.0.1\\firefox.exe" "--marionette" "--remote-debugging ... 29" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofile43HA9B"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707906683077	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1707906683159	Marionette	INFO	Listening on port 55137
+WebDriver BiDi listening on ws://127.0.0.1:55129
+Read port: 55137
+1707906683347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55129/devtools/browser/82ca0ba6-b116-4df0-8208-fb48ea8b35d9
+1707906714853	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: "Unable to find target with innerWindowId:6442450951"
+console.error: "Unable to find target with innerWindowId:6442450952"
+console.error: "Unable to find target with innerWindowId:6442450953"

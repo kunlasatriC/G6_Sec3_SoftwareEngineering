@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-02-14T17:53:18.702584" rpa="false" schemaversion="5">
+<suite id="s1" name="UAT Lang US01" source="C:\Users\asus\Desktop\เอาไว้ตรงนี้\Soft n\git\Project\PrestaShop\test\UAT_Lang_US01.robot">
+<test id="s1-t1" name="Open Event Home Page:" line="14">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:18.885163" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/gb/'.</msg>
+<arg>${HOME URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-14T17:53:18.885163" elapsed="16.182423"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:35.074400" level="INFO">Page title is 'Shop'.</msg>
+<arg>Shop</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:35.068102" elapsed="0.006820"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:35.075445" level="INFO">Clicking link 'http://localhost:8080/gb/'.</msg>
+<arg>http://localhost:8080/gb/</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:35.075445" elapsed="0.320791"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:35.406243" level="INFO">Page title is 'Shop'.</msg>
+<arg>Shop</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:35.397237" elapsed="0.009006"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:35.406696" level="INFO">Clicking link 'http://localhost:8080/th/'.</msg>
+<arg>http://localhost:8080/th/</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:35.406696" elapsed="0.201240"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:35.613934" level="INFO">Page title is 'Shop'.</msg>
+<arg>Shop</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:35.608935" elapsed="0.004999"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:35.614935" level="INFO">Clicking link 'http://localhost:8080/id/'.</msg>
+<arg>http://localhost:8080/id/</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:35.613934" elapsed="0.249714"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:35.880693" level="INFO">Page title is 'Shop'.</msg>
+<arg>Shop</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:35.864179" elapsed="0.017499"/>
+</kw>
+<status status="PASS" start="2024-02-14T17:53:18.884163" elapsed="16.998523"/>
+</test>
+<test id="s1-t2" name="Change languages on New Product Page:" line="24">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:35.886829" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/gb/'.</msg>
+<arg>${HOME URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-14T17:53:35.886829" elapsed="6.061857"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:41.949686" level="INFO">Clicking element 'id:link-product-page-new-products-1'.</msg>
+<arg>id:link-product-page-new-products-1</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:41.949686" elapsed="0.453769"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:42.405455" level="INFO">Page title is 'New products'.</msg>
+<arg>New products</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:42.403455" elapsed="0.002000"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:42.406931" level="INFO">Clicking link 'http://localhost:8080/th/สินค้าใหม่'.</msg>
+<arg>http://localhost:8080/th/สินค้าใหม่</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:42.406420" elapsed="0.300608"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:42.710029" level="INFO">Page title is 'สินค้าใหม่'.</msg>
+<arg>สินค้าใหม่</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:42.708029" elapsed="0.002000"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:42.711029" level="INFO">Clicking link 'http://localhost:8080/gb/new-products'.</msg>
+<arg>http://localhost:8080/gb/new-products</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:42.711029" elapsed="0.309932"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:43.022960" level="INFO">Page title is 'New products'.</msg>
+<arg>New products</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:43.020961" elapsed="0.002999"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:43.023960" level="INFO">Clicking link 'http://localhost:8080/id/produk-terbaru'.</msg>
+<arg>http://localhost:8080/id/produk-terbaru</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:43.023960" elapsed="0.311775"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:43.338736" level="INFO">Page title is 'Produk baru'.</msg>
+<arg>Produk baru</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:43.336737" elapsed="0.001999"/>
+</kw>
+<status status="PASS" start="2024-02-14T17:53:35.885676" elapsed="7.454061"/>
+</test>
+<test id="s1-t3" name="Change languages on Login Page:" line="35">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:43.341740" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/gb/'.</msg>
+<arg>${HOME URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-14T17:53:43.340740" elapsed="5.973580"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:49.315321" level="INFO">Clicking element 'id:_desktop_user_info'.</msg>
+<arg>id:_desktop_user_info</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:49.314320" elapsed="0.369198"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:49.685518" level="INFO">Page title is 'Login'.</msg>
+<arg>Login</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:49.683518" elapsed="0.002000"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:49.686519" level="INFO">Clicking link 'http://localhost:8080/th/เข้าสู่ระบบ?back=http%3A%2F%2Flocalhost%3A8080%2Fgb%2F'.</msg>
+<arg>http://localhost:8080/th/เข้าสู่ระบบ?back=http%3A%2F%2Flocalhost%3A8080%2Fgb%2F</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:49.686519" elapsed="0.258878"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:49.948397" level="INFO">Page title is 'เข้าสู่ระบบ'.</msg>
+<arg>เข้าสู่ระบบ</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:49.946397" elapsed="0.002000"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:49.948397" level="INFO">Clicking link 'http://localhost:8080/gb/login?back=http%3A%2F%2Flocalhost%3A8080%2Fgb%2F'.</msg>
+<arg>http://localhost:8080/gb/login?back=http%3A%2F%2Flocalhost%3A8080%2Fgb%2F</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:49.948397" elapsed="0.222673"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:50.176573" level="INFO">Page title is 'Login'.</msg>
+<arg>Login</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:50.171599" elapsed="0.004974"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:50.177608" level="INFO">Clicking link 'http://localhost:8080/id/login?back=http%3A%2F%2Flocalhost%3A8080%2Fgb%2F'.</msg>
+<arg>http://localhost:8080/id/login?back=http%3A%2F%2Flocalhost%3A8080%2Fgb%2F</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:50.177078" elapsed="0.451109"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:50.630185" level="INFO">Page title is 'Login'.</msg>
+<arg>Login</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:50.629186" elapsed="0.000999"/>
+</kw>
+<status status="PASS" start="2024-02-14T17:53:43.339737" elapsed="7.291452"/>
+</test>
+<test id="s1-t4" name="Change languages on Category Page:" line="46">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:50.634188" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/gb/'.</msg>
+<arg>${HOME URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-14T17:53:50.634188" elapsed="6.378024"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:57.012733" level="INFO">Clicking element 'id:category-3'.</msg>
+<arg>id:category-3</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:57.012733" elapsed="0.419725"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:57.435067" level="INFO">Page title is 'Clothes'.</msg>
+<arg>Clothes</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:57.432978" elapsed="0.002089"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:57.435588" level="INFO">Clicking link 'http://localhost:8080/th/3-clothes'.</msg>
+<arg>http://localhost:8080/th/3-clothes</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:57.435588" elapsed="0.311254"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:57.752558" level="INFO">Page title is 'เสื้อ'.</msg>
+<arg>เสื้อ</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:57.747844" elapsed="0.004714"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:57.753559" level="INFO">Clicking link 'http://localhost:8080/gb/3-clothes'.</msg>
+<arg>http://localhost:8080/gb/3-clothes</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:57.753559" elapsed="0.258261"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:58.016057" level="INFO">Page title is 'Clothes'.</msg>
+<arg>Clothes</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:58.011820" elapsed="0.004237"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:58.017070" level="INFO">Clicking link 'http://localhost:8080/id/3-Pakaian'.</msg>
+<arg>http://localhost:8080/id/3-Pakaian</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:53:58.017070" elapsed="0.281951"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:58.302028" level="INFO">Page title is 'Pakaian'.</msg>
+<arg>Pakaian</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:53:58.300029" elapsed="0.001999"/>
+</kw>
+<status status="PASS" start="2024-02-14T17:53:50.633189" elapsed="7.668839"/>
+</test>
+<test id="s1-t5" name="Change Home Page to Thai:" line="57">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:53:58.304029" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/gb/'.</msg>
+<arg>${HOME URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-14T17:53:58.304029" elapsed="6.139976"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:54:04.458666" level="INFO">Page title is 'Shop'.</msg>
+<arg>Shop</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:54:04.445518" elapsed="0.013661"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:54:04.461550" level="INFO">Clicking link 'http://localhost:8080/th/'.</msg>
+<arg>http://localhost:8080/th/</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:54:04.461010" elapsed="0.491978"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:54:04.962510" level="INFO">Page title is 'Shop'.</msg>
+<arg>Shop</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:54:04.954992" elapsed="0.007518"/>
+</kw>
+<status status="PASS" start="2024-02-14T17:53:58.303030" elapsed="6.660477"/>
+</test>
+<test id="s1-t6" name=" Change Home Page to Indonesian:" line="63">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:54:04.965510" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/gb/'.</msg>
+<arg>${HOME URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-14T17:54:04.965510" elapsed="6.313984"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:54:11.284851" level="INFO">Page title is 'Shop'.</msg>
+<arg>Shop</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:54:11.280496" elapsed="0.004355"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:54:11.285855" level="INFO">Clicking link 'http://localhost:8080/id/'.</msg>
+<arg>http://localhost:8080/id/</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:54:11.285855" elapsed="0.541621"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:54:11.834994" level="INFO">Page title is 'Shop'.</msg>
+<arg>Shop</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:54:11.828473" elapsed="0.006521"/>
+</kw>
+<status status="PASS" start="2024-02-14T17:54:04.964512" elapsed="6.871502"/>
+</test>
+<test id="s1-t7" name="Change Home Page to English:" line="69">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:54:11.840008" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/gb/'.</msg>
+<arg>${HOME URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-14T17:54:11.840008" elapsed="6.486379"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:54:18.346314" level="INFO">Page title is 'Shop'.</msg>
+<arg>Shop</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:54:18.326919" elapsed="0.019395"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:54:18.348492" level="INFO">Clicking link 'http://localhost:8080/gb/'.</msg>
+<arg>http://localhost:8080/gb/</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-14T17:54:18.347316" elapsed="0.580284"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-14T17:54:18.942939" level="INFO">Page title is 'Shop'.</msg>
+<arg>Shop</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-14T17:54:18.928690" elapsed="0.014249"/>
+</kw>
+<status status="PASS" start="2024-02-14T17:54:11.838010" elapsed="7.107448"/>
+</test>
+<doc>A test suite with a single test for valid login.</doc>
+<status status="PASS" start="2024-02-14T17:53:18.704584" elapsed="60.245404"/>
+</suite>
+<statistics>
+<total>
+<stat pass="7" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="7" fail="0" skip="0" id="s1" name="UAT Lang US01">UAT Lang US01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
