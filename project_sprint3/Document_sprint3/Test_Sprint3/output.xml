@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-02-28T21:22:49.727684" rpa="false" schemaversion="5">
+<suite id="s1" name="UAT Lang US08" source="C:\Users\asus\Desktop\เอาไว้ตรงนี้\Soft n\git\Project\PrestaShop\test\UAT_Lang_US08.robot">
+<test id="s1-t1" name="Open Event Home Page:" line="15">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:22:50.005162" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/id/'.</msg>
+<arg>${INDEX URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-28T21:22:50.004163" elapsed="6.477442"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:22:56.482598" level="INFO">Clicking element 'xpath=//a[@title="ภาษาไทย (Thai)"]'.</msg>
+<arg>xpath=//a[@title="ภาษาไทย (Thai)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-28T21:22:56.482598" elapsed="0.380646"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:22:56.871163" level="INFO">Page title is 'Shop'.</msg>
+<arg>Shop</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-28T21:22:56.864646" elapsed="0.006517"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:22:56.871163" level="INFO">Verifying element 'id:contact-link' contains exact text 'ติดต่อเรา'.</msg>
+<arg>id:contact-link</arg>
+<arg>ติดต่อเรา</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-02-28T21:22:56.871163" elapsed="0.027649"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:22:56.899875" level="INFO">Verifying element 'class:products-section-title' contains exact text 'สินค้ายอดนิยม'.</msg>
+<arg>class:products-section-title</arg>
+<arg>สินค้ายอดนิยม</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-02-28T21:22:56.899346" elapsed="0.034123"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:22:56.934469" level="INFO">Verifying element 'class:myaccount-title' contains exact text 'บัญชีของคุณ'.</msg>
+<arg>class:myaccount-title</arg>
+<arg>บัญชีของคุณ</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-02-28T21:22:56.933469" elapsed="0.046531"/>
+</kw>
+<status status="PASS" start="2024-02-28T21:22:50.003161" elapsed="6.976839"/>
+</test>
+<test id="s1-t2" name="Open Event New Product Page:" line="23">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:22:56.981997" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/id/'.</msg>
+<arg>${INDEX URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-28T21:22:56.981997" elapsed="6.552286"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:03.535286" level="INFO">Clicking element 'id:link-product-page-new-products-1'.</msg>
+<arg>id:link-product-page-new-products-1</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-28T21:23:03.535286" elapsed="0.357999"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:03.899683" level="INFO">Page title is 'Produk baru'.</msg>
+<arg>Produk baru</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-28T21:23:03.893816" elapsed="0.005867"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:03.900207" level="INFO">Clicking element 'xpath=//a[@title="ภาษาไทย (Thai)"]'.</msg>
+<arg>xpath=//a[@title="ภาษาไทย (Thai)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-28T21:23:03.900207" elapsed="0.227805"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:04.130008" level="INFO">Page title is 'สินค้าใหม่'.</msg>
+<arg>สินค้าใหม่</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-28T21:23:04.128012" elapsed="0.001996"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:04.130008" level="INFO">Verifying element 'id:contact-link' contains exact text 'ติดต่อเรา'.</msg>
+<arg>id:contact-link</arg>
+<arg>ติดต่อเรา</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-02-28T21:23:04.130008" elapsed="0.024709"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:04.155235" level="INFO">Verifying element 'id:js-product-list-header' contains exact text 'สินค้าใหม่'.</msg>
+<arg>id:js-product-list-header</arg>
+<arg>สินค้าใหม่</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-02-28T21:23:04.155235" elapsed="0.045866"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:04.202608" level="INFO">Verifying element 'class:myaccount-title' contains exact text 'บัญชีของคุณ'.</msg>
+<arg>class:myaccount-title</arg>
+<arg>บัญชีของคุณ</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-02-28T21:23:04.202608" elapsed="0.010006"/>
+</kw>
+<status status="PASS" start="2024-02-28T21:22:56.980997" elapsed="7.231617"/>
+</test>
+<test id="s1-t3" name="Open Event clothes Page:" line="33">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:04.213614" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/id/'.</msg>
+<arg>${INDEX URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-28T21:23:04.213614" elapsed="7.066946"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:11.282558" level="INFO">Clicking link 'http://localhost:8080/id/3-Pakaian'.</msg>
+<arg>http://localhost:8080/id/3-Pakaian</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-28T21:23:11.281562" elapsed="0.405830"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:11.690556" level="INFO">Page title is 'Pakaian'.</msg>
+<arg>Pakaian</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-28T21:23:11.687920" elapsed="0.002636"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:11.691687" level="INFO">Clicking element 'xpath=//a[@title="ภาษาไทย (Thai)"]'.</msg>
+<arg>xpath=//a[@title="ภาษาไทย (Thai)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-28T21:23:11.691076" elapsed="0.367947"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:12.067350" level="INFO">Page title is 'เสื้อ'.</msg>
+<arg>เสื้อ</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-02-28T21:23:12.060024" elapsed="0.008181"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:12.069725" level="INFO">Verifying element 'id:contact-link' contains exact text 'ติดต่อเรา'.</msg>
+<arg>id:contact-link</arg>
+<arg>ติดต่อเรา</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-02-28T21:23:12.068714" elapsed="0.056943"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:12.126659" level="INFO">Verifying element 'class:facet-title' contains exact text 'สถานะสินค้า'.</msg>
+<arg>class:facet-title</arg>
+<arg>สถานะสินค้า</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-02-28T21:23:12.126659" elapsed="0.029523"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-02-28T21:23:12.157264" level="INFO">Verifying element 'class:myaccount-title' contains exact text 'บัญชีของคุณ'.</msg>
+<arg>class:myaccount-title</arg>
+<arg>บัญชีของคุณ</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-02-28T21:23:12.156727" elapsed="0.054007"/>
+</kw>
+<status status="PASS" start="2024-02-28T21:23:04.212614" elapsed="7.999122"/>
+</test>
+<doc>A test suite with a single test for valid login.</doc>
+<status status="PASS" start="2024-02-28T21:22:49.730685" elapsed="22.483051"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="UAT Lang US08">UAT Lang US08</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
